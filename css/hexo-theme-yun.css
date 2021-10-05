@@ -2140,7 +2140,7 @@ body {
   color: var(--hty-text-color);
 }
 body::before {
-  background-image: url("/images/darkbg.png");
+  background-image: url("https://cdn.jsdelivr.net/gh/lfhsheng/lfhsheng.github.io/images/darkbg.png");
 }
 .char {
   background-color: rgba(0,0,0,0.5);
