@@ -6,7 +6,7 @@
   <link href="https://lfhsheng.top/atom.xml" rel="self"/>
   
   <link href="https://lfhsheng.top/"/>
-  <updated>2021-10-29T12:51:50.644Z</updated>
+  <updated>2021-11-01T13:00:02.809Z</updated>
   <id>https://lfhsheng.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://lfhsheng.top/posts/about-blog&#39;s-comment/"/>
     <id>https://lfhsheng.top/posts/about-blog&#39;s-comment/</id>
     <published>2021-10-29T12:04:20.584Z</published>
-    <updated>2021-10-29T12:51:50.644Z</updated>
+    <updated>2021-11-01T13:00:02.809Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="utteranc"><a href="#utteranc" class="headerlink" title="utteranc"></a>utteranc</h2><h3 id="废话"><a href="#废话" class="headerlink" title="废话"></a>废话</h3><p><a href="https://utteranc.es/">utteranc</a>是一个基于<a href="https://docs.github.com/cn/issues">Github Issue</a>的评论系统，但<a href="https://github.com/">Github</a>在国内的访问速度……你懂我懂大家懂😑</p><p>本博客曾经使用过utteranc作为评论系统，但utteranc的缺点十分明显</p><h4 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h4><ol><li><p>无法正确加载评论，有时要刷新很多次才能显示评论</p></li><li><p>登录繁琐，如果一个评论系统得用一堆<del>奇技淫巧</del>才可以成功评论，那么我评论的兴致就……</p></li></ol><h4 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h4><ol><li>安全，几乎不会被刷评论</li></ol><h4 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h4><p>除非你人在国外，或者你认为大家都不嫌用Github登录十分繁琐的话，那么就用吧！</p><h3 id="配置教程"><a href="#配置教程" class="headerlink" title="配置教程"></a>配置教程</h3><h4 id="条件"><a href="#条件" class="headerlink" title="条件"></a>条件</h4><ol><li><p>一个网站<del>很明显有了</del></p></li><li><p>一个<a href="https://github.com/">Github</a>账户</p></li></ol><h4 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h4><p>utteranc：<a href="https://utteranc.es/">https://utteranc.es</a></p><h5 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h5><p>用Github账户创建一个仓库</p><p><img src="https://lfhsheng.github.io/images/%E6%96%B0%E5%BB%BAGithub%E4%BB%93%E5%BA%93.jpg" alt="新建Github仓库" loading="lazy"></p><p><img src="https://lfhsheng.github.io/images/%E8%AE%BE%E7%BD%AE%E4%BB%93%E5%BA%93%E9%85%8D%E7%BD%AE.png" alt="设置仓库配置" loading="lazy"></p><p>点击<a href="https://github.com/apps/utterances">这里</a>给仓库添加utteranc应用以管理评论</p><h5 id="服务器上的配置"><a href="#服务器上的配置" class="headerlink" title="服务器上的配置"></a>服务器上的配置</h5><p>在主题的<code>yml</code>文件中添加如下代码</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">utterances:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">owner/repo</span></span><br><span class="line">  <span class="attr">issue-term:</span> <span class="string">pathname</span></span><br><span class="line">  <span class="comment"># label: comment</span></span><br><span class="line">  <span class="attr">theme:</span> <span class="string">github-light</span></span><br></pre></td></tr></table></figure><p>将<code>owner/repo</code>配置为<code>你的Github账户名/存放评论的仓库名字</code></p><p>你还可以在<code>theme</code>配置中设置评论的样式（默认为<code>github-light</code>）</p><h2 id="Waline"><a href="#Waline" class="headerlink" title="Waline"></a>Waline</h2><h3 id="废话-1"><a href="#废话-1" class="headerlink" title="废话"></a>废话</h3><p>这是本博客目前所用的评论系统</p><blockquote><p>一款基于 Valine 衍生的简洁、安全的评论系统。</p><p>可以将 Waline 等价成 With backend Valine.</p></blockquote><h3 id="配置教程-1"><a href="#配置教程-1" class="headerlink" title="配置教程"></a>配置教程</h3><p>由于步骤较为繁琐，请大家自行参考<a href="https://waline.js.org/guide/get-started.html#leancloud-%E8%AE%BE%E7%BD%AE-%E6%95%B0%E6%8D%AE%E5%BA%93">Waline官网进行配置</a></p><h4 id="提要"><a href="#提要" class="headerlink" title="提要"></a>提要</h4><p>在配置<strong>Vercel的环境变量（<code>Environment Variables</code>）时</strong>请注意一点，变量的名字（<code>NAME</code>)是有规定的，变量（<code>VALUE</code>）请自行填写变量值。</p><p><del>当时在这里卡了三天</del></p>]]></content>
     
@@ -40,12 +40,14 @@
     
     <category term="踩坑" scheme="https://lfhsheng.top/tags/%E8%B8%A9%E5%9D%91/"/>
     
+    <category term="指南" scheme="https://lfhsheng.top/tags/%E6%8C%87%E5%8D%97/"/>
+    
   </entry>
   
   <entry>
     <title>论网站为什么停服一天</title>
-    <link href="https://lfhsheng.top/posts/ckvdtks390015ek2m33o659yf/"/>
-    <id>https://lfhsheng.top/posts/ckvdtks390015ek2m33o659yf/</id>
+    <link href="https://lfhsheng.top/posts/ckvgoumh3000na02m972age4y/"/>
+    <id>https://lfhsheng.top/posts/ckvgoumh3000na02m972age4y/</id>
     <published>2021-10-22T16:00:00.000Z</published>
     <updated>2021-10-25T13:04:34.016Z</updated>
     
@@ -169,7 +171,7 @@
     <published>2021-10-01T08:06:19.063Z</published>
     <updated>2021-10-29T11:22:45.085Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="庆祝："><a href="#庆祝：" class="headerlink" title="庆祝："></a>庆祝：</h2><p>2021年09月26号，这个网站<strong>正式建成</strong>！！！ <del>我透我肝了我五天啊</del></p><h2 id="打个广告"><a href="#打个广告" class="headerlink" title="打个广告"></a>打个广告</h2><p>建了一个<strong>不务正业</strong>的<a href="https://lfhshengwiki.github.io/">维基</a></p><h2 id="v1-3更新"><a href="#v1-3更新" class="headerlink" title="v1.3更新"></a>v1.3更新</h2><p>添加了<a href="https://waline.js.org/">Waline</a>评论</p><h2 id="v1-2更新"><a href="#v1-2更新" class="headerlink" title="v1.2更新"></a>v1.2更新</h2><p>加入了Live2D人物</p><p>删除了聊胜于无的网站使用指南</p><p><del>网站的网址用自定义实在搞不好了，只能用id了……😫</del></p><p>中文太香了，改成中文的吧</p><h2 id="v1-1更新"><a href="#v1-1更新" class="headerlink" title="v1.1更新"></a>v1.1更新</h2><p>增加了音乐播放器，就是左下角的那个玩意</p><p>修复了<code>v1.0</code>的漏洞</p><p>增加置顶文章</p><p>最近更亿更，再搞个评论系统😙（搞好了）</p><p>有些博客被我隐藏了，自己找一找吧O(∩_∩)O</p><h2 id="v1-0更新"><a href="#v1-0更新" class="headerlink" title="v1.0更新"></a>v1.0更新</h2><h3 id="漏洞"><a href="#漏洞" class="headerlink" title="漏洞"></a>漏洞</h3><p>当你访问本页面的<code>tags</code>页面时，会显示<code>Cannot GET /tags/</code></p><p>非常抱歉我修复不好这个漏洞，这是<strong>v1.0</strong>更新，感谢大家的支持！</p><p>屏幕前的这位<del>憨憨</del>看到下面那个按钮了吗？打开手机扫一扫吧！</p><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>如x.x.1、x.x.2等小更新<strong>将不记录在内</strong></p><p>听首歌放松下🤣</p>    <div id="aplayer-zBrAyNoD" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="423228325" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#C20C0C"    ></div>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="庆祝："><a href="#庆祝：" class="headerlink" title="庆祝："></a>庆祝：</h2><p>2021年09月26号，这个网站<strong>正式建成</strong>！！！ <del>我透我肝了我五天啊</del></p><h2 id="打个广告"><a href="#打个广告" class="headerlink" title="打个广告"></a>打个广告</h2><p>建了一个<strong>不务正业</strong>的<a href="https://lfhshengwiki.github.io/">维基</a></p><h2 id="v1-3更新"><a href="#v1-3更新" class="headerlink" title="v1.3更新"></a>v1.3更新</h2><p>添加了<a href="https://waline.js.org/">Waline</a>评论</p><h2 id="v1-2更新"><a href="#v1-2更新" class="headerlink" title="v1.2更新"></a>v1.2更新</h2><p>加入了Live2D人物</p><p>删除了聊胜于无的网站使用指南</p><p><del>网站的网址用自定义实在搞不好了，只能用id了……😫</del></p><p>中文太香了，改成中文的吧</p><h2 id="v1-1更新"><a href="#v1-1更新" class="headerlink" title="v1.1更新"></a>v1.1更新</h2><p>增加了音乐播放器，就是左下角的那个玩意</p><p>修复了<code>v1.0</code>的漏洞</p><p>增加置顶文章</p><p>最近更亿更，再搞个评论系统😙（搞好了）</p><p>有些博客被我隐藏了，自己找一找吧O(∩_∩)O</p><h2 id="v1-0更新"><a href="#v1-0更新" class="headerlink" title="v1.0更新"></a>v1.0更新</h2><h3 id="漏洞"><a href="#漏洞" class="headerlink" title="漏洞"></a>漏洞</h3><p>当你访问本页面的<code>tags</code>页面时，会显示<code>Cannot GET /tags/</code></p><p>非常抱歉我修复不好这个漏洞，这是<strong>v1.0</strong>更新，感谢大家的支持！</p><p>屏幕前的这位<del>憨憨</del>看到下面那个按钮了吗？打开手机扫一扫吧！</p><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>如x.x.1、x.x.2等小更新<strong>将不记录在内</strong></p><p>听首歌放松下🤣</p>    <div id="aplayer-ZwoXrJZO" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="423228325" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#C20C0C"    ></div>]]></content>
     
     
       
@@ -188,12 +190,12 @@
   
   <entry>
     <title>抗击新冠，我们一起行！</title>
-    <link href="https://lfhsheng.top/posts/ckvdtks2o0003ek2m529d85od/"/>
-    <id>https://lfhsheng.top/posts/ckvdtks2o0003ek2m529d85od/</id>
+    <link href="https://lfhsheng.top/posts/ckvgoumgj0003a02m1vfb6a0n/"/>
+    <id>https://lfhsheng.top/posts/ckvgoumgj0003a02m1vfb6a0n/</id>
     <published>2021-09-29T16:00:00.000Z</published>
     <updated>2021-10-10T09:26:12.866Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>敬爱的老师，亲爱的同学们：</p><p>大家好！</p><p>今天，我要演讲的题目是《抗击新冠，我们一起行！》。</p><p>2021年9月，新的学期才刚刚拉开序幕，但我们的邻居——莆田发生了疫情。9月14日，<a href="https://s.weibo.com/weibo?q=%23%E5%8E%A6%E9%97%A8%E4%B8%80%E5%AE%B6%E5%B7%A5%E5%8E%82%E5%8F%91%E7%94%9F%E8%81%9A%E9%9B%86%E6%80%A7%E7%96%AB%E6%83%85%23">厦门同安区某工厂发生聚集性疫情</a>。面对此次突如其来的疫情，我们有了8月份的那场疫情的经验。全厦门市民齐心协力，有钱出钱，有力出力，团结一致，拧成一股绳：<a href="http://fj.people.com.cn/n2/2021/0924/c181466-34927606.html">厦门市政府紧急追加下达了三笔资金共4.45亿元，用于全员核酸检测、密接人员食宿等战“疫”保障。</a>，在全员核酸检测时，如果只有医护人员的参与，那现场就会乱成一锅粥，所以还需要志愿者来维持秩序。一天下来，虽然志愿者们汗如雨下，却无怨无悔。</p><p>但作为小学生，我们可以做一些什么吗？</p><p>首先是保持身体健康，健康是革命的基础。为了保持健康，我们可以进行体育锻炼，如仰卧起坐、俯卧撑等适合居家锻炼的体育项目。每天运动一小时，健康生活一辈子。</p><p>其次此时正是秋夏交接的季节，也是常见的流感病毒的流行期间，许多免疫力差的同学都会中招。更何况现在正是特殊时期，一旦感冒，不仅会令人身心俱疲，还会影响学业。那如何增强免疫力呢？俗话说病从口入，我们要时刻保持双手清洁，避免细菌由手进入口腔；我们还要加强体育锻炼；最后就是要勤喝水，水是生命资源，免疫系统不能没有水，喝水也可以提高免疫力。</p><p>虽然这次疫情已经接近尾声，但我们不能放松警惕，要坚持带口罩、勤洗手，不给病毒留可乘之机！</p><p>谢谢大家！</p>    <div id="aplayer-CmWfjKSQ" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="448596416" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#C20C0C"    ></div>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>敬爱的老师，亲爱的同学们：</p><p>大家好！</p><p>今天，我要演讲的题目是《抗击新冠，我们一起行！》。</p><p>2021年9月，新的学期才刚刚拉开序幕，但我们的邻居——莆田发生了疫情。9月14日，<a href="https://s.weibo.com/weibo?q=%23%E5%8E%A6%E9%97%A8%E4%B8%80%E5%AE%B6%E5%B7%A5%E5%8E%82%E5%8F%91%E7%94%9F%E8%81%9A%E9%9B%86%E6%80%A7%E7%96%AB%E6%83%85%23">厦门同安区某工厂发生聚集性疫情</a>。面对此次突如其来的疫情，我们有了8月份的那场疫情的经验。全厦门市民齐心协力，有钱出钱，有力出力，团结一致，拧成一股绳：<a href="http://fj.people.com.cn/n2/2021/0924/c181466-34927606.html">厦门市政府紧急追加下达了三笔资金共4.45亿元，用于全员核酸检测、密接人员食宿等战“疫”保障。</a>，在全员核酸检测时，如果只有医护人员的参与，那现场就会乱成一锅粥，所以还需要志愿者来维持秩序。一天下来，虽然志愿者们汗如雨下，却无怨无悔。</p><p>但作为小学生，我们可以做一些什么吗？</p><p>首先是保持身体健康，健康是革命的基础。为了保持健康，我们可以进行体育锻炼，如仰卧起坐、俯卧撑等适合居家锻炼的体育项目。每天运动一小时，健康生活一辈子。</p><p>其次此时正是秋夏交接的季节，也是常见的流感病毒的流行期间，许多免疫力差的同学都会中招。更何况现在正是特殊时期，一旦感冒，不仅会令人身心俱疲，还会影响学业。那如何增强免疫力呢？俗话说病从口入，我们要时刻保持双手清洁，避免细菌由手进入口腔；我们还要加强体育锻炼；最后就是要勤喝水，水是生命资源，免疫系统不能没有水，喝水也可以提高免疫力。</p><p>虽然这次疫情已经接近尾声，但我们不能放松警惕，要坚持带口罩、勤洗手，不给病毒留可乘之机！</p><p>谢谢大家！</p>    <div id="aplayer-UCtNLbuD" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="448596416" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#C20C0C"    ></div>]]></content>
     
     
       
@@ -214,8 +216,8 @@
   
   <entry>
     <title>六年级上册演讲提纲</title>
-    <link href="https://lfhsheng.top/posts/ckvdtks2s0007ek2m38xf1850/"/>
-    <id>https://lfhsheng.top/posts/ckvdtks2s0007ek2m38xf1850/</id>
+    <link href="https://lfhsheng.top/posts/ckvgoumgo0007a02m9w6lfqjt/"/>
+    <id>https://lfhsheng.top/posts/ckvgoumgo0007a02m9w6lfqjt/</id>
     <published>2021-09-28T16:00:00.000Z</published>
     <updated>2021-10-10T09:26:12.863Z</updated>
     
@@ -240,12 +242,12 @@
   
   <entry>
     <title>语文六年级上册第八课</title>
-    <link href="https://lfhsheng.top/posts/ckvdtks3a0019ek2mesgfca95/"/>
-    <id>https://lfhsheng.top/posts/ckvdtks3a0019ek2mesgfca95/</id>
+    <link href="https://lfhsheng.top/posts/ckvgoumhe001ea02md63ka6o6/"/>
+    <id>https://lfhsheng.top/posts/ckvgoumhe001ea02md63ka6o6/</id>
     <published>2021-09-26T07:41:18.000Z</published>
     <updated>2021-10-10T09:26:12.870Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><h3 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h3><p><strong>【文眼】</strong>表现主题思想内涵的词语或句子。文眼出现的位置有以下几种情况：<br>A．篇首，总领全文<br>B．篇末，卒章显志<br>C．篇首篇末，重复出现，前后呼应<br>D．篇中<br>E．贯穿于通篇，多次出现。<br>本文“多好啊”这一文眼属于上述哪种情况？( E )</p><h2 id="叙述顺序"><a href="#叙述顺序" class="headerlink" title="叙述顺序"></a>叙述顺序</h2><p>本文运用倒叙的手法，由天安门广场的灯光写起，叙述过去的事情，结尾又回到灯光，与开头照应。这样写首尾呼应，结构紧凑，含义深刻。</p><h2 id="例题-1"><a href="#例题-1" class="headerlink" title="例题"></a>例题</h2><p>天安门前璀璨的灯光、郝副营长书上插图中的灯光和战场上微弱的火光，三者之间有什么联系？</p><p>答：天安门前璀璨的灯光，引起了“我”对往事的回忆；郝副营长书上插图中的灯光，引起了郝副营长对幸福生活的憧憬；正是因为对美好生活的憧憬，促使郝副营长在战斗中不顾自身安危，点燃了那本书，用微弱的火光为后续部队照亮了前进的路。</p><h2 id="题目的含义"><a href="#题目的含义" class="headerlink" title="题目的含义"></a>题目的含义</h2><p>灯光是全文的线索。灯光它象征着光明和幸福生活。灯光象征着像郝副营长一样为革命胜利献出生命的战士。灯光象征着革命先烈牺牲自己，照亮他人的的献身精神。</p>    <div id="aplayer-jxpVEfSM" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="518904426" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#C20C0C"    ></div>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><h3 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h3><p><strong>【文眼】</strong>表现主题思想内涵的词语或句子。文眼出现的位置有以下几种情况：<br>A．篇首，总领全文<br>B．篇末，卒章显志<br>C．篇首篇末，重复出现，前后呼应<br>D．篇中<br>E．贯穿于通篇，多次出现。<br>本文“多好啊”这一文眼属于上述哪种情况？( E )</p><h2 id="叙述顺序"><a href="#叙述顺序" class="headerlink" title="叙述顺序"></a>叙述顺序</h2><p>本文运用倒叙的手法，由天安门广场的灯光写起，叙述过去的事情，结尾又回到灯光，与开头照应。这样写首尾呼应，结构紧凑，含义深刻。</p><h2 id="例题-1"><a href="#例题-1" class="headerlink" title="例题"></a>例题</h2><p>天安门前璀璨的灯光、郝副营长书上插图中的灯光和战场上微弱的火光，三者之间有什么联系？</p><p>答：天安门前璀璨的灯光，引起了“我”对往事的回忆；郝副营长书上插图中的灯光，引起了郝副营长对幸福生活的憧憬；正是因为对美好生活的憧憬，促使郝副营长在战斗中不顾自身安危，点燃了那本书，用微弱的火光为后续部队照亮了前进的路。</p><h2 id="题目的含义"><a href="#题目的含义" class="headerlink" title="题目的含义"></a>题目的含义</h2><p>灯光是全文的线索。灯光它象征着光明和幸福生活。灯光象征着像郝副营长一样为革命胜利献出生命的战士。灯光象征着革命先烈牺牲自己，照亮他人的的献身精神。</p>    <div id="aplayer-fJgpfJIB" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="518904426" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#C20C0C"    ></div>]]></content>
     
     
       
@@ -260,8 +262,8 @@
   
   <entry>
     <title>无法上传代码……</title>
-    <link href="https://lfhsheng.top/posts/ckvdtks2x000gek2m3cu33r01/"/>
-    <id>https://lfhsheng.top/posts/ckvdtks2x000gek2m3cu33r01/</id>
+    <link href="https://lfhsheng.top/posts/ckvgoumgt000ga02m01vsbt94/"/>
+    <id>https://lfhsheng.top/posts/ckvgoumgt000ga02m01vsbt94/</id>
     <published>2021-09-23T16:00:00.000Z</published>
     <updated>2021-10-23T14:09:39.420Z</updated>
     
