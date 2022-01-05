@@ -20,7 +20,7 @@ document.addEventListener("pjax:success", initScrollReveal);
   const wordcloud_canvas = document.getElementById('wordcloud-canvas')
   wordcloud_canvas.width = document.querySelector('#page').clientWidth - 16
   wordcloud_canvas.height = 350
-  let wordcloud_config = {"list":[["HTML",1.1,"/tags/HTML/"],["Markdown",1.1,"/tags/Markdown/"],["MediaWiki",1.1,"/tags/MediaWiki/"],["Typecho",1.1,"/tags/Typecho/"],["语文六年级上册",1.2,"/tags/语文六年级上册/"],["作文提纲",1.2,"/tags/作文提纲/"],["随便写写",1.6,"/tags/随便写写/"],["语文公式",1.2,"/tags/语文公式/"],["云空调",1.1,"/tags/云空调/"],["npm",1.1,"/tags/npm/"],["lfhsheng的安利",1.1,"/tags/lfhsheng的安利/"],["Hexo",1.1,"/tags/Hexo/"],["踩坑",1.2,"/tags/踩坑/"],["指南",1.1,"/tags/指南/"]],"fontFamily":"'PingFang SC', 'Microsoft YaHei', Roboto, Arial, sans-serif","fontWeight":400,"gridSize":10,"weightFactor":13,"backgroundColor":"transparent","color":"random-dark"}
+  let wordcloud_config = {"list":[["HTML",1.1,"/tags/HTML/"],["Markdown",1.1,"/tags/Markdown/"],["MediaWiki",1.1,"/tags/MediaWiki/"],["随便写写",1.6,"/tags/随便写写/"],["Typecho",1.1,"/tags/Typecho/"],["语文公式",1.2,"/tags/语文公式/"],["语文六年级上册",1.2,"/tags/语文六年级上册/"],["作文提纲",1.2,"/tags/作文提纲/"],["云空调",1.1,"/tags/云空调/"],["npm",1.1,"/tags/npm/"],["lfhsheng的安利",1.1,"/tags/lfhsheng的安利/"],["Hexo",1.1,"/tags/Hexo/"],["踩坑",1.2,"/tags/踩坑/"],["指南",1.1,"/tags/指南/"]],"fontFamily":"'PingFang SC', 'Microsoft YaHei', Roboto, Arial, sans-serif","fontWeight":400,"gridSize":10,"weightFactor":13,"backgroundColor":"transparent","color":"random-dark"}
   wordcloud_config.hover = function(item, dimension){
     if (!dimension) {
       wordbox.hidden = true
