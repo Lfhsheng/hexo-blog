@@ -1,0 +1,272 @@
+colors:
+  primary: "#FFA500"
+  # primary: "#6200ee"
+  bg: "#ffffff"
+  selection_bg: "#8e71c1"
+  tag_start_color: "#999999"
+  tag_end_color: "#0078E7"
+  dark:
+    block: "#17202a"
+    primary: "#fffafa"
+    # block: "#17202A"
+
+favicon: /images/favicon.svg
+
+notice:
+  enable: true
+  content: 沉浸在Touch Fish的海洋中无法自拔
+  mode: time
+
+wordcloud:
+  enable: true
+  height: 350
+
+footer:
+  since: 2021
+  icon:
+    name: icon-github-line
+    animated: true
+    color: "#FFA500"
+  custom_text: <a href="https://icp.gov.moe/?keyword=20210142" target="_blank">萌ICP备20210142号</a>
+  live_time:
+    enable: true
+    prefix: 本站在Web的海洋中漂泊了
+    suffix: 
+    start_time: "2021-09-26T08:30:00"
+
+local_search:
+  enable: true
+  src: /js/search/local-search.js
+
+waline:
+  enable: true
+  serverURL: https://waline-n41x.vercel.app/
+  # visitor: false
+  # display comment count
+  comment: true
+  emoji:
+    - https://cdn.jsdelivr.net/gh/walinejs/emojis@latest/bilibili/
+    - https://cdn.jsdelivr.net/gh/walinejs/emojis@latest/weibo/
+  locale:
+    admin: '舰长'
+
+wordcount:
+  enable: true
+  count: true
+  time: true
+
+albums:
+  enable: true
+
+
+codeblock:
+  copy_btn: true
+  prismjs:
+    light: default
+    dark: tomorrow
+
+busuanzi:
+  enable: false
+  site_uv: true
+  site_uv_icon: icon-user-line
+  site_pv: true
+  site_pv_icon: icon-eye-line
+  page_pv: true
+  page_pv_icon: icon-eye-line
+
+aplayer:
+  global: false
+  meting: true
+  # https://github.com/metowolf/MetingJS/tree/v1.2#option
+  widget:
+    enable: false
+    autoplay: false
+    # theme: "#2980b9"
+    loop: all
+    order: list
+    preload: auto
+    volume: 0.7
+    mutex: true
+    lrcType: 0
+    listFolded: false
+    listMaxHeight: 340px
+    audio:
+      - name: At The Edge
+        artist: 千坂
+        url: https://cdn.jsdelivr.net/gh/lfhsheng/lfhsheng.github.io/media/AtTheEdge.mp3
+        cover: https://cdn.jsdelivr.net/gh/lfhsheng/lfhsheng.github.io/images/AtTheEdge.jpg
+    meting:
+      enable: true
+      id: 2802777466
+      server: netease
+      type: playlist
+
+pjax:
+  enable: true
+
+reward:
+  enable: true
+  icon: icon-hand-coin-line
+  comment: I'm so cute. Please give me money.
+  # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
+  methods:
+    - name: 支付宝
+      path: https://lfhsheng.top/images/ailpay.png
+      color: "#00A3EE"
+      icon: icon-alipay-line
+    - name: 微信
+      path: https://lfhsheng.top/images/wechatpay.jpg
+      color: "#2DC100"
+      icon: icon-wechat-pay-line
+    # - name: paypal
+    #   link: https://paypal.com
+    #   path: https://www.paypalobjects.com/images/shared/paypal-logo-129x32.svg
+    #   color: "#2D70B5"
+    #   icon: icon-paypal-line
+
+bg_image:
+  enable: true
+  url: /images/bg.png # recomend image related to your mode
+  dark: /images/darkbg.png
+  # blur: 30px
+  opacity: 1
+
+cursor:
+  enable: true
+  default: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/pointer.cur
+  pointer: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur
+  text: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/text.cur
+
+fireworks:
+  enable: true
+  src: /js/ui/fireworks.js
+  colors:
+    - "225, 225, 225"
+    - "255, 235, 220"
+    - "255, 250, 250"
+    # - '3, 28, 95'
+    # - '0, 8, 55'
+
+tags:
+  踩坑: "#FF6347"
+  npm: "#008000"
+  lfhsheng的安利: "#BA55D3"
+  语文六年级上册: "#A9A9A9"
+  云空调: "#00FFFF"
+  公告: "#FFA500"
+  作文提纲: "#A9A9A9"
+  随便写写: "#A9A9A9"
+
+categories:
+  lfhsheng的公告: "#FFA500"
+  云空调: "#00FFFF"
+  作文: "#A9A9A9"
+  网站搭建笔记: "#FF6347"
+  随便写写: "#A9A9A9"
+
+menu:
+  home:
+    path: /
+    icon: icon-home-4-line
+  list:
+    - type: archives
+      path: /archives/
+      icon: icon-archive-line
+    - type: categories
+      path: /categories/
+      icon: icon-folder-2-line
+    - type: tags
+      path: /tags/
+      icon: icon-price-tag-3-line
+    - path: https://lfhshengwiki.github.io
+      icon: icon-external-link-line
+  custom:
+    title: 关于本主题文档
+    path: https://yun.yunyoujun.cn
+    icon: icon-settings-line
+
+avatar:
+  enable: true
+  url: /images/lfhsheng.jpg
+  # If true, the avatar would be dispalyed in circle.
+  rounded: true
+  # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
+  opacity: 1
+  mickey_mouse: false
+  status:
+    enable: true
+    emoji: 😢
+    message: 上学了
+
+banner:
+  enable: true
+  title: 泠风寒声的小窝
+  src: /js/ui/banner.js
+  border: true
+  cloud:
+    enable: false
+    color: "white"
+  go_down:
+    enable: true
+    icon: icon-arrow-down-s-line
+
+scrollreveal:
+  enable: true
+  targets:
+    - .post-card
+    - .post-content img
+
+social:
+  - name: RSS
+    link: /atom.xml # config.feed.path
+    icon: icon-rss-line
+    color: orange
+  - name: GitHub
+    link: https://github.com/lfhsheng
+    icon: icon-github-line
+    color: "#6e5494"
+  - name: 哔哩哔哩
+    link: https://space.bilibili.com/513762438
+    icon: icon-bilibili-line
+    color: "#FF8EB3"
+  - name: 豆瓣
+    link: https://www.douban.com/people/248015466/
+    icon: icon-douban-line
+    color: "#007722"
+  - name: Twitter
+    link: https://twitter.com/lfhsheng
+    icon: icon-twitter-line
+    color: "#1da1f2"
+  - name: 网易云音乐
+    link: https://music.163.com/#/user/home?id=1855993727
+    icon: icon-netease-cloud-music-line
+    color: "#C20C0C"
+  - name: 知乎
+    link: https://www.zhihu.com/people/lfhsheng
+    icon: icon-zhihu-line
+    color: "#0084FF"
+
+  - name: E-Mail
+    link: mailto:me@lfhsheng.top
+    icon: icon-mail-line
+  - name: Travelling
+    link: https://travellings.link
+    icon: icon-train-line
+    color: black
+  - name: 老哲的功能站
+    link: https://volantis.masle.top
+    icon: icon-send-plane-2-line
+    color: "#0084FF"
+
+pages:
+  - name: 我的小伙伴们
+    url: /links/
+    icon: icon-genderless-line
+    color: dodgerblue
+  - name: 相册
+    url: /albums/
+    icon: icon-gallery-line
+    color: dodgerblue
+  - name: 留言板
+    url: /message/
+    icon: icon-questionnaire-line
