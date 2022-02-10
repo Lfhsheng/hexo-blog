@@ -4,81 +4,6 @@
   
     
     <entry>
-      <title>Windows 11配置</title>
-      <link href="/posts/Windows-11-config/"/>
-      <url>/posts/Windows-11-config/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><div class="gray"><blockquote><p>本文将持续更新</p><p><del>如果作者不咕咕的话🕊</del></p></blockquote></div><p>当你已经升级到Windows 11，却发现Windows 11与Windows 10和Windows 7大不相同 <del>那你还升级😶</del></p><p>比如：</p><ul><li><p>居中的任务栏</p></li><li><p>消失的开始菜单</p></li></ul><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><h3 id="如何将任务栏靠左"><a href="#如何将任务栏靠左" class="headerlink" title="如何将任务栏靠左"></a>如何将任务栏靠左</h3><p>打开设置-个性化</p><div class="info"><blockquote><p>你可以按下Windows徽标键+<code>i</code>键启动设置</p></blockquote></div><p>找到<code>任务栏</code>，并点击</p><p><img src="https://s4.ax1x.com/2022/01/12/7KNuN9.jpg" alt="找到任务栏" loading="lazy"></p><p>选择<code>任务栏行为</code>，展开菜单</p><p><img src="https://s4.ax1x.com/2022/01/13/7lrTJK.jpg" alt="选择任务栏行为，展开菜单" loading="lazy"></p><p>在<code>任务栏对齐方式</code>选择<code>左</code></p><h3 id="新的开始菜单"><a href="#新的开始菜单" class="headerlink" title="新的开始菜单"></a>新的开始菜单</h3><p>在Windows 11中，<code>开始</code>菜单也变得不同</p><p><img src="https://s4.ax1x.com/2022/01/14/73V2tK.jpg" alt="在Windows 11中，开始菜单也变得不同" loading="lazy"></p><p>你可以把一些常用的程序固定在开始菜单</p><p><img src="https://s4.ax1x.com/2022/01/14/73mKfK.jpg" alt="你可以把一些常用的程序固定在开始菜单" loading="lazy"></p><p>搜索应用，在左边选择开始屏幕是否固定</p><h3 id="恢复到原来的系统"><a href="#恢复到原来的系统" class="headerlink" title="恢复到原来的系统"></a>恢复到原来的系统</h3><div class="info"><blockquote><p>如果你是从Windows 7安装的，就回到Windows 7，而不是Windows 10</p><p>如果你是通过U盘安装的，那么大概率是无法返回的</p></blockquote></div><p>打开设置-系统</p><p><img src="https://s4.ax1x.com/2022/01/14/73mxje.jpg" alt="打开设置-系统" loading="lazy"></p><p>选择<code>恢复</code></p><p><img src="https://s4.ax1x.com/2022/01/14/73nnBj.jpg" alt="选择恢复" loading="lazy"></p><p>点击<code>返回</code></p><div class="warning"><blockquote><p>升级后的<code>Windows.old</code>文件会占用C盘一部分空间</p><p>如果你将C盘内<code>Windows.old</code>文件删除，那么你将无法返回原来的系统</p></blockquote></div>]]></content>
-      
-      
-      <categories>
-          
-          <category> Windows 11 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Windows 11 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>升级Windows 11</title>
-      <link href="/posts/Update-to-Windows-11/"/>
-      <url>/posts/Update-to-Windows-11/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h2><div class="warning"><blockquote><p>本文将不介绍如何开启安全启动、TPM</p></blockquote></div><p>虽然Windows 11已经发布了有两个月多了，但我还没升级</p><p>经过深思熟虑，我决定升级试试 <del>希望别回退了</del></p><span id="more"></span><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>升级Windows 11共有三种方法：</p><h3 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h3><p>下载<a href="https://www.microsoft.com/zh-cn/software-download/windows11?3ffbea20-eb11-4a96-85d6-f356b820d828=True">Windows 11 安装助手</a>，如果条件符合的话，他会自动为你更新系统</p><p>但是这个方法有个很严重的缺点——</p><p>条件符合……</p><p>毕竟几乎没有人会去为了升级Windows 11和去买个TPM模块的</p><h3 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h3><p>这个方法适合大多数人</p><div class="warning"><blockquote><p>最好先用<a href="https://www.microsoft.com/zh-cn/software-download/windows11?3ffbea20-eb11-4a96-85d6-f356b820d828=True">Windows 11 安装助手</a>检查满足条件，能满足的就尽量满足</p></blockquote></div><p>首先下载<a href="https://www.microsoft.com/zh-cn/software-download/windows11?3ffbea20-eb11-4a96-85d6-f356b820d828=True">Windows 11的ISO</a>，找到<code>下载 Windows 11 磁盘映像 (ISO)</code>，选择版本</p><p>然后下载</p><hr><p>这个有个坑，因为选项里只有<code>Windows 11 家庭版</code>和<code>Windows 11 (multi-edition ISO)</code></p><p>如果你是家庭版的话，就选前项，否则就选后项</p><p>下载完成用解压软件解压</p><div class="danger"><blockquote><p>别解压到桌面</p></blockquote></div><p>然后找到<code>source</code>文件夹，删除<code>appraiserres.dll</code>文件</p><p>确保<strong>准备好升级</strong>后，<strong>断网</strong></p><p>双击<code>setup.exe</code>，根据提示升级</p><p><img src="https://s4.ax1x.com/2022/01/09/7FeKMj.png" alt="点击更改安装程序下载更新的方式" loading="lazy"></p><p><img src="https://s4.ax1x.com/2022/01/09/7FeMss.png" alt="选择不是现在" loading="lazy"></p><h3 id="方法三"><a href="#方法三" class="headerlink" title="方法三"></a>方法三</h3><p>使用工具来升级系统</p><p>选择<a href="https://www.microsoft.com/zh-cn/software-download/windows11?3ffbea20-eb11-4a96-85d6-f356b820d828=True"><code>创建 Windows 11 安装</code></a></p><p>下载工具，用管理员身份打开</p><p>根据工具提示安装</p><hr><p>也可以使用工具来创建系统安装U盘</p><div class="danger"><blockquote><p>慎用！相当于把电脑格式化后装上系统</p></blockquote></div><p>安装时设置<code>BIOS</code>启动顺序</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 系统升级 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Windows 11 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>更新Hexo主题</title>
-      <link href="/posts/update-Hexo-theme/"/>
-      <url>/posts/update-Hexo-theme/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h2><div class="info"><blockquote><p>本文章适用于不小心更改了主题的<code>_config.yml</code>的人</p></blockquote></div><p>不知不觉间，博客已经搭建结束两三个月了。主题使用的是<a href="https://github.com/YunYouJun/hexo-theme-yun">Yun</a>主题，更新到了<a href="https://github.com/YunYouJun/hexo-theme-yun/releases/tag/v1.7.0">1.7.0版本</a>，其中“添加 Waline Dark Mode 的默认配置”是我最喜欢的功能了 <del>再不更新小窝就要结蜘蛛网了🕊</del></p><span id="more"></span><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>本来说更新主题是挺简单的吧 <del>什么？你用动态博客？当我没说</del></p><p>但作者在<a href="https://yun.yunyoujun.cn/guide/config.html">说明文档</a>里提到：</p><div class="danger"><blockquote><p>请在 <code>source/_data/yun.yml</code> 中定义您所需要的配置，其余将自动使用主题的默认配置。</p><p>如未特殊说明，皆默认在 <code>yun.yml</code> 文件中配置。</p><p>请最好不要对主题的任何文件进行修改，除非你确认你拥有一定的开发能力或此后将不会对主题进行升级。</p></blockquote></div><p>（无语.jpg）</p><p>不得不说我自己是真的手贱，在开发的时候把主题的<code>_config.yml</code>改的面目全非 <del>升级<code>Hexo</code>的时候是不是得崩溃</del></p><p>但是——</p><p>方法总比困难多 <del>你就搁着找理由去吧</del></p><h3 id="正正文"><a href="#正正文" class="headerlink" title="正正文"></a>正正文</h3><p>我把改的面目全非的<code>_config.yml</code>复制到了桌面上</p><p>然后按照一般的主题更新流程，把原来的主题给覆盖了</p><p>然后</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">hexo s<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>然后按照桌面的<code>_config.yml</code>配置 <code>source/_data/yun.yml</code> </p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 网站搭建笔记 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Hexo </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>静态博客评论配置指南</title>
       <link href="/posts/about-blog-comment/"/>
       <url>/posts/about-blog-comment/</url>
@@ -146,25 +71,23 @@
     
     
     <entry>
-      <title>如果你的npm很慢或者直接废了</title>
-      <link href="/posts/if-your-NPM-is-broken/"/>
-      <url>/posts/if-your-NPM-is-broken/</url>
+      <title>更新Hexo主题</title>
+      <link href="/posts/update-Hexo-theme/"/>
+      <url>/posts/update-Hexo-theme/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>可以试一试用<code>taobao</code>的镜像文件</p><pre class="line-numbers language-none"><code class="language-none">npm config set registry https:&#x2F;&#x2F;registry.npm.taobao.org<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><span id="more"></span><p>或者可以使用<code>yarn</code></p><pre class="line-numbers language-none"><code class="language-none">npm install -g yarn<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>再或者可以下载<code>Dev-Sidecar</code></p><p>在<a href="https://github.com/docmirror/dev-sidecar/releases">GitHub</a>下载</p><p>在<a href="https://gitee.com/docmirror/dev-sidecar/releases">Gitee</a>下载</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h2><div class="info"><blockquote><p>本文章适用于不小心更改了主题的<code>_config.yml</code>的人</p></blockquote></div><p>不知不觉间，博客已经搭建结束两三个月了。主题使用的是<a href="https://github.com/YunYouJun/hexo-theme-yun">Yun</a>主题，更新到了<a href="https://github.com/YunYouJun/hexo-theme-yun/releases/tag/v1.7.0">1.7.0版本</a>，其中“添加 Waline Dark Mode 的默认配置”是我最喜欢的功能了 <del>再不更新小窝就要结蜘蛛网了🕊</del></p><span id="more"></span><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>本来说更新主题是挺简单的吧 <del>什么？你用动态博客？当我没说</del></p><p>但作者在<a href="https://yun.yunyoujun.cn/guide/config.html">说明文档</a>里提到：</p><div class="danger"><blockquote><p>请在 <code>source/_data/yun.yml</code> 中定义您所需要的配置，其余将自动使用主题的默认配置。</p><p>如未特殊说明，皆默认在 <code>yun.yml</code> 文件中配置。</p><p>请最好不要对主题的任何文件进行修改，除非你确认你拥有一定的开发能力或此后将不会对主题进行升级。</p></blockquote></div><p>（无语.jpg）</p><p>不得不说我自己是真的手贱，在开发的时候把主题的<code>_config.yml</code>改的面目全非 <del>升级<code>Hexo</code>的时候是不是得崩溃</del></p><p>但是——</p><p>方法总比困难多 <del>你就搁着找理由去吧</del></p><h3 id="正正文"><a href="#正正文" class="headerlink" title="正正文"></a>正正文</h3><p>我把改的面目全非的<code>_config.yml</code>复制到了桌面上</p><p>然后按照一般的主题更新流程，把原来的主题给覆盖了</p><p>然后</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">hexo s<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>然后按照桌面的<code>_config.yml</code>配置 <code>source/_data/yun.yml</code> </p>]]></content>
       
       
       <categories>
           
-          <category> 随便写写 </category>
+          <category> 网站搭建笔记 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> npm </tag>
-            
-            <tag> lfhsheng的安利 </tag>
+            <tag> Hexo </tag>
             
         </tags>
       
@@ -190,6 +113,33 @@
         <tags>
             
             <tag> 随便写写 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如果你的npm很慢或者直接废了</title>
+      <link href="/posts/if-your-NPM-is-broken/"/>
+      <url>/posts/if-your-NPM-is-broken/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>可以试一试用<code>taobao</code>的镜像文件</p><pre class="line-numbers language-none"><code class="language-none">npm config set registry https:&#x2F;&#x2F;registry.npm.taobao.org<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><span id="more"></span><p>或者可以使用<code>yarn</code></p><pre class="line-numbers language-none"><code class="language-none">npm install -g yarn<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>再或者可以下载<code>Dev-Sidecar</code></p><p>在<a href="https://github.com/docmirror/dev-sidecar/releases">GitHub</a>下载</p><p>在<a href="https://gitee.com/docmirror/dev-sidecar/releases">Gitee</a>下载</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随便写写 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> npm </tag>
+            
+            <tag> lfhsheng的安利 </tag>
             
         </tags>
       
@@ -298,6 +248,31 @@
     
     
     <entry>
+      <title>Windows 11配置</title>
+      <link href="/posts/Windows-11-config/"/>
+      <url>/posts/Windows-11-config/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><div class="gray"><blockquote><p>本文将持续更新</p><p><del>如果作者不咕咕的话🕊</del></p></blockquote></div><p>当你已经升级到Windows 11，却发现Windows 11与Windows 10和Windows 7大不相同 <del>那你还升级😶</del></p><p>比如：</p><ul><li><p>居中的任务栏</p></li><li><p>消失的开始菜单</p></li></ul><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><h3 id="如何将任务栏靠左"><a href="#如何将任务栏靠左" class="headerlink" title="如何将任务栏靠左"></a>如何将任务栏靠左</h3><p>打开设置-个性化</p><div class="info"><blockquote><p>你可以按下Windows徽标键+<code>i</code>键启动设置</p></blockquote></div><p>找到<code>任务栏</code>，并点击</p><p><img src="https://s4.ax1x.com/2022/01/12/7KNuN9.jpg" alt="找到任务栏" loading="lazy"></p><p>选择<code>任务栏行为</code>，展开菜单</p><p><img src="https://s4.ax1x.com/2022/01/13/7lrTJK.jpg" alt="选择任务栏行为，展开菜单" loading="lazy"></p><p>在<code>任务栏对齐方式</code>选择<code>左</code></p><h3 id="新的开始菜单"><a href="#新的开始菜单" class="headerlink" title="新的开始菜单"></a>新的开始菜单</h3><p>在Windows 11中，<code>开始</code>菜单也变得不同</p><p><img src="https://s4.ax1x.com/2022/01/14/73V2tK.jpg" alt="在Windows 11中，开始菜单也变得不同" loading="lazy"></p><p>你可以把一些常用的程序固定在开始菜单</p><p><img src="https://s4.ax1x.com/2022/01/14/73mKfK.jpg" alt="你可以把一些常用的程序固定在开始菜单" loading="lazy"></p><p>搜索应用，在左边选择开始屏幕是否固定</p><h3 id="恢复到原来的系统"><a href="#恢复到原来的系统" class="headerlink" title="恢复到原来的系统"></a>恢复到原来的系统</h3><div class="info"><blockquote><p>如果你是从Windows 7安装的，就回到Windows 7，而不是Windows 10</p><p>如果你是通过U盘安装的，那么大概率是无法返回的</p></blockquote></div><p>打开设置-系统</p><p><img src="https://s4.ax1x.com/2022/01/14/73mxje.jpg" alt="打开设置-系统" loading="lazy"></p><p>选择<code>恢复</code></p><p><img src="https://s4.ax1x.com/2022/01/14/73nnBj.jpg" alt="选择恢复" loading="lazy"></p><p>点击<code>返回</code></p><div class="warning"><blockquote><p>升级后的<code>Windows.old</code>文件会占用C盘一部分空间</p><p>如果你将C盘内<code>Windows.old</code>文件删除，那么你将无法返回原来的系统</p></blockquote></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> Windows 11 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Windows 11 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>MediaWiki入门指南</title>
       <link href="/posts/MediaWiki-getting-started/"/>
       <url>/posts/MediaWiki-getting-started/</url>
@@ -373,6 +348,31 @@
     
     
     <entry>
+      <title>升级Windows 11</title>
+      <link href="/posts/Update-to-Windows-11/"/>
+      <url>/posts/Update-to-Windows-11/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h2><div class="warning"><blockquote><p>本文将不介绍如何开启安全启动、TPM</p></blockquote></div><p>虽然Windows 11已经发布了有两个月多了，但我还没升级</p><p>经过深思熟虑，我决定升级试试 <del>希望别回退了</del></p><span id="more"></span><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>升级Windows 11共有三种方法：</p><h3 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h3><p>下载<a href="https://www.microsoft.com/zh-cn/software-download/windows11?3ffbea20-eb11-4a96-85d6-f356b820d828=True">Windows 11 安装助手</a>，如果条件符合的话，他会自动为你更新系统</p><p>但是这个方法有个很严重的缺点——</p><p>条件符合……</p><p>毕竟几乎没有人会去为了升级Windows 11和去买个TPM模块的</p><h3 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h3><p>这个方法适合大多数人</p><div class="warning"><blockquote><p>最好先用<a href="https://www.microsoft.com/zh-cn/software-download/windows11?3ffbea20-eb11-4a96-85d6-f356b820d828=True">Windows 11 安装助手</a>检查满足条件，能满足的就尽量满足</p></blockquote></div><p>首先下载<a href="https://www.microsoft.com/zh-cn/software-download/windows11?3ffbea20-eb11-4a96-85d6-f356b820d828=True">Windows 11的ISO</a>，找到<code>下载 Windows 11 磁盘映像 (ISO)</code>，选择版本</p><p>然后下载</p><hr><p>这个有个坑，因为选项里只有<code>Windows 11 家庭版</code>和<code>Windows 11 (multi-edition ISO)</code></p><p>如果你是家庭版的话，就选前项，否则就选后项</p><p>下载完成用解压软件解压</p><div class="danger"><blockquote><p>别解压到桌面</p></blockquote></div><p>然后找到<code>source</code>文件夹，删除<code>appraiserres.dll</code>文件</p><p>确保<strong>准备好升级</strong>后，<strong>断网</strong></p><p>双击<code>setup.exe</code>，根据提示升级</p><p><img src="https://s4.ax1x.com/2022/01/09/7FeKMj.png" alt="点击更改安装程序下载更新的方式" loading="lazy"></p><p><img src="https://s4.ax1x.com/2022/01/09/7FeMss.png" alt="选择不是现在" loading="lazy"></p><h3 id="方法三"><a href="#方法三" class="headerlink" title="方法三"></a>方法三</h3><p>使用工具来升级系统</p><p>选择<a href="https://www.microsoft.com/zh-cn/software-download/windows11?3ffbea20-eb11-4a96-85d6-f356b820d828=True"><code>创建 Windows 11 安装</code></a></p><p>下载工具，用管理员身份打开</p><p>根据工具提示安装</p><hr><p>也可以使用工具来创建系统安装U盘</p><div class="danger"><blockquote><p>慎用！相当于把电脑格式化后装上系统</p></blockquote></div><p>安装时设置<code>BIOS</code>启动顺序</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 系统升级 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Windows 11 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>论网站为什么停服一天</title>
       <link href="/posts/why-stop-serving-a-day/"/>
       <url>/posts/why-stop-serving-a-day/</url>
@@ -401,10 +401,10 @@
     
     <entry>
       <title>抗击新冠，我们一起行！</title>
-      <link href="/posts/ckyti7k3u000wcg2mf0yi4h3b/"/>
-      <url>/posts/ckyti7k3u000wcg2mf0yi4h3b/</url>
+      <link href="/posts/ckzgyeir2000rck2m482ketw9/"/>
+      <url>/posts/ckzgyeir2000rck2m482ketw9/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>敬爱的老师，亲爱的同学们：</p><p>大家好！</p><p>今天，我要演讲的题目是《抗击新冠，我们一起行！》。</p><p>2021年9月，新的学期才刚刚拉开序幕，但我们的邻居——莆田发生了疫情。9月14日，<a href="https://s.weibo.com/weibo?q=%23%E5%8E%A6%E9%97%A8%E4%B8%80%E5%AE%B6%E5%B7%A5%E5%8E%82%E5%8F%91%E7%94%9F%E8%81%9A%E9%9B%86%E6%80%A7%E7%96%AB%E6%83%85%23">厦门同安区某工厂发生聚集性疫情</a>。面对此次突如其来的疫情，我们有了8月份的那场疫情的经验。全厦门市民齐心协力，有钱出钱，有力出力，团结一致，拧成一股绳：<a href="http://fj.people.com.cn/n2/2021/0924/c181466-34927606.html">厦门市政府紧急追加下达了三笔资金共4.45亿元，用于全员核酸检测、密接人员食宿等战“疫”保障。</a>，在全员核酸检测时，如果只有医护人员的参与，那现场就会乱成一锅粥，所以还需要志愿者来维持秩序。一天下来，虽然志愿者们汗如雨下，却无怨无悔。</p><p>但作为小学生，我们可以做一些什么吗？</p><p>首先是保持身体健康，健康是革命的基础。为了保持健康，我们可以进行体育锻炼，如仰卧起坐、俯卧撑等适合居家锻炼的体育项目。每天运动一小时，健康生活一辈子。</p><p>其次此时正是秋夏交接的季节，也是常见的流感病毒的流行期间，许多免疫力差的同学都会中招。更何况现在正是特殊时期，一旦感冒，不仅会令人身心俱疲，还会影响学业。那如何增强免疫力呢？俗话说病从口入，我们要时刻保持双手清洁，避免细菌由手进入口腔；我们还要加强体育锻炼；最后就是要勤喝水，水是生命资源，免疫系统不能没有水，喝水也可以提高免疫力。</p><p>虽然这次疫情已经接近尾声，但我们不能放松警惕，要坚持带口罩、勤洗手，不给病毒留可乘之机！</p><p>谢谢大家！</p>    <div id="aplayer-xaemMUgj" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="448596416" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#C20C0C"    ></div>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>敬爱的老师，亲爱的同学们：</p><p>大家好！</p><p>今天，我要演讲的题目是《抗击新冠，我们一起行！》。</p><p>2021年9月，新的学期才刚刚拉开序幕，但我们的邻居——莆田发生了疫情。9月14日，<a href="https://s.weibo.com/weibo?q=%23%E5%8E%A6%E9%97%A8%E4%B8%80%E5%AE%B6%E5%B7%A5%E5%8E%82%E5%8F%91%E7%94%9F%E8%81%9A%E9%9B%86%E6%80%A7%E7%96%AB%E6%83%85%23">厦门同安区某工厂发生聚集性疫情</a>。面对此次突如其来的疫情，我们有了8月份的那场疫情的经验。全厦门市民齐心协力，有钱出钱，有力出力，团结一致，拧成一股绳：<a href="http://fj.people.com.cn/n2/2021/0924/c181466-34927606.html">厦门市政府紧急追加下达了三笔资金共4.45亿元，用于全员核酸检测、密接人员食宿等战“疫”保障。</a>，在全员核酸检测时，如果只有医护人员的参与，那现场就会乱成一锅粥，所以还需要志愿者来维持秩序。一天下来，虽然志愿者们汗如雨下，却无怨无悔。</p><p>但作为小学生，我们可以做一些什么吗？</p><p>首先是保持身体健康，健康是革命的基础。为了保持健康，我们可以进行体育锻炼，如仰卧起坐、俯卧撑等适合居家锻炼的体育项目。每天运动一小时，健康生活一辈子。</p><p>其次此时正是秋夏交接的季节，也是常见的流感病毒的流行期间，许多免疫力差的同学都会中招。更何况现在正是特殊时期，一旦感冒，不仅会令人身心俱疲，还会影响学业。那如何增强免疫力呢？俗话说病从口入，我们要时刻保持双手清洁，避免细菌由手进入口腔；我们还要加强体育锻炼；最后就是要勤喝水，水是生命资源，免疫系统不能没有水，喝水也可以提高免疫力。</p><p>虽然这次疫情已经接近尾声，但我们不能放松警惕，要坚持带口罩、勤洗手，不给病毒留可乘之机！</p><p>谢谢大家！</p>    <div id="aplayer-ElpkcDKG" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="448596416" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#C20C0C"    ></div>]]></content>
       
       
       <categories>
@@ -428,8 +428,8 @@
     
     <entry>
       <title>六年级上册演讲提纲</title>
-      <link href="/posts/ckyti7k3p000ncg2memoh4q49/"/>
-      <url>/posts/ckyti7k3p000ncg2memoh4q49/</url>
+      <link href="/posts/ckzgyeir0000nck2m7kb0260x/"/>
+      <url>/posts/ckzgyeir0000nck2m7kb0260x/</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p>抗击新冠，我们一起行！</p><h2 id="观点"><a href="#观点" class="headerlink" title="观点"></a>观点</h2><ul><li>服从政府的安排</li><li>自觉带口罩、洗手、消毒<h2 id="事例"><a href="#事例" class="headerlink" title="事例"></a>事例</h2></li><li>为进一步加强各项抗疫工作保障，厦门市日前紧急追加下达了三笔资金共4.45亿元，用于全员核酸检测、密接人员食宿等战“疫”保障。<strong>（政府出力）</strong>——<a href="http://fj.people.com.cn/n2/2021/0924/c181466-34927606.html">人民网</a></li><li>志愿者们帮忙维护秩序，衣服上全是劳累的汗水，却无怨无悔。<strong>（志愿者出力）</strong></li><li>百姓们自愿核酸检测。<strong>（百姓出力）</strong></li></ul>]]></content>
       
@@ -455,10 +455,10 @@
     
     <entry>
       <title>语文六年级上册第八课</title>
-      <link href="/posts/ckyti7k4e001kcg2m4xxsf4dc/"/>
-      <url>/posts/ckyti7k4e001kcg2m4xxsf4dc/</url>
+      <link href="/posts/ckzgyeirm002gck2mdz9a60ri/"/>
+      <url>/posts/ckzgyeirm002gck2mdz9a60ri/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><h3 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h3><p><strong>【文眼】</strong>表现主题思想内涵的词语或句子。文眼出现的位置有以下几种情况：<br>A．篇首，总领全文<br>B．篇末，卒章显志<br>C．篇首篇末，重复出现，前后呼应<br>D．篇中<br>E．贯穿于通篇，多次出现。<br>本文“多好啊”这一文眼属于上述哪种情况？( E )</p><h2 id="叙述顺序"><a href="#叙述顺序" class="headerlink" title="叙述顺序"></a>叙述顺序</h2><p>本文运用倒叙的手法，由天安门广场的灯光写起，叙述过去的事情，结尾又回到灯光，与开头照应。这样写首尾呼应，结构紧凑，含义深刻。</p><h2 id="例题-1"><a href="#例题-1" class="headerlink" title="例题"></a>例题</h2><p>天安门前璀璨的灯光、郝副营长书上插图中的灯光和战场上微弱的火光，三者之间有什么联系？</p><p>答：天安门前璀璨的灯光，引起了“我”对往事的回忆；郝副营长书上插图中的灯光，引起了郝副营长对幸福生活的憧憬；正是因为对美好生活的憧憬，促使郝副营长在战斗中不顾自身安危，点燃了那本书，用微弱的火光为后续部队照亮了前进的路。</p><h2 id="题目的含义"><a href="#题目的含义" class="headerlink" title="题目的含义"></a>题目的含义</h2><p>灯光是全文的线索。灯光它象征着光明和幸福生活。灯光象征着像郝副营长一样为革命胜利献出生命的战士。灯光象征着革命先烈牺牲自己，照亮他人的的献身精神。</p>    <div id="aplayer-eOUrbcXs" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="518904426" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#C20C0C"    ></div>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><h3 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h3><p><strong>【文眼】</strong>表现主题思想内涵的词语或句子。文眼出现的位置有以下几种情况：<br>A．篇首，总领全文<br>B．篇末，卒章显志<br>C．篇首篇末，重复出现，前后呼应<br>D．篇中<br>E．贯穿于通篇，多次出现。<br>本文“多好啊”这一文眼属于上述哪种情况？( E )</p><h2 id="叙述顺序"><a href="#叙述顺序" class="headerlink" title="叙述顺序"></a>叙述顺序</h2><p>本文运用倒叙的手法，由天安门广场的灯光写起，叙述过去的事情，结尾又回到灯光，与开头照应。这样写首尾呼应，结构紧凑，含义深刻。</p><h2 id="例题-1"><a href="#例题-1" class="headerlink" title="例题"></a>例题</h2><p>天安门前璀璨的灯光、郝副营长书上插图中的灯光和战场上微弱的火光，三者之间有什么联系？</p><p>答：天安门前璀璨的灯光，引起了“我”对往事的回忆；郝副营长书上插图中的灯光，引起了郝副营长对幸福生活的憧憬；正是因为对美好生活的憧憬，促使郝副营长在战斗中不顾自身安危，点燃了那本书，用微弱的火光为后续部队照亮了前进的路。</p><h2 id="题目的含义"><a href="#题目的含义" class="headerlink" title="题目的含义"></a>题目的含义</h2><p>灯光是全文的线索。灯光它象征着光明和幸福生活。灯光象征着像郝副营长一样为革命胜利献出生命的战士。灯光象征着革命先烈牺牲自己，照亮他人的的献身精神。</p>    <div id="aplayer-PXPGvJPK" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="518904426" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#C20C0C"    ></div>]]></content>
       
       
       
@@ -468,8 +468,8 @@
     
     <entry>
       <title>无法上传代码……</title>
-      <link href="/posts/ckyti7k44001acg2mgrvu4jej/"/>
-      <url>/posts/ckyti7k44001acg2mgrvu4jej/</url>
+      <link href="/posts/ckzgyeirk002cck2m0vz9hqd8/"/>
+      <url>/posts/ckzgyeirk002cck2m0vz9hqd8/</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>网站（就是你现在看的这个）我肝了三天，除了<code>links</code>和<code>tags</code>页面访问时会出现<code>Cannot GET</code>，其他的都差不多了。但就在上传代码的那一步，死活上不去……</p><p>裂开了😑</p>]]></content>
       
